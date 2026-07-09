@@ -24,7 +24,7 @@ export default function Masthead() {
         <h1>AI-powered learning,<br />student-validated testimonies.</h1>
         <p className="sub">
           In response to the recent ruling against Maestro College, this independent,
-          student-led initiative presents undeniable proof of our model's success.
+          student-led initiative aims to provide undeniable proof of our model's success.
           We're collecting these testimonies in an effort to show that the ongoing
           evaluation of Maestro College should remain centered on what truly matters:
           objective competency and proven student results.
