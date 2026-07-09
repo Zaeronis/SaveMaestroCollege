@@ -1,15 +1,5 @@
 [
   {
-    "no": "000",
-    "name": "Sample entry",
-    "program": "Maestro College — AAS, AI Software Engineering",
-    "skill": "Deployed a React app to production",
-    "filed": "2026-07-08",
-    "verified": false,
-    "sample": true,
-    "outcome": "This is a placeholder showing the format. Describe a concrete thing you can now do that you could not before, and how the program got you there."
-  },
-  {
     "no": "001",
     "name": "Kaitlynn Anderson",
     "program": "(not given)",
