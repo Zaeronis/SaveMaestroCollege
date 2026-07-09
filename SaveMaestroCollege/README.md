@@ -13,7 +13,7 @@ instruction — which is the winnable framing.
 
 ```bash
 npm install
-cp .env.example .env.local   # fill in EmailJS keys
+cp .env .env.local   # fill in EmailJS keys
 npm run dev                  # http://localhost:5173
 npm run build                # -> dist/  (Vercel serves this)
 ```
