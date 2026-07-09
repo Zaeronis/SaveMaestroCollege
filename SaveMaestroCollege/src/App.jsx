@@ -7,6 +7,7 @@ import SubmitForm from './components/SubmitForm.jsx';
 import Testimonials from './components/Testimonials.jsx';
 import Footer from './components/Footer.jsx';
 import Cursor from './components/Cursor.jsx';
+import { Analytics } from "@vercel/analytics/next"
 
 export default function App() {
   useEffect(() => {
@@ -26,6 +27,7 @@ export default function App() {
 
   return (
     <>
+      <Analytics />
       <Cursor />
       <Masthead />
       <main className="wrap">
