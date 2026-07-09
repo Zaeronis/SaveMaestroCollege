@@ -122,8 +122,7 @@ export default function SubmitForm() {
           <div className="field">
             <label htmlFor="contact">Maestro School Email Verification
               <span className="hint">
-                A Maestro-provided school email is required. You will receive a confirmation 
-                email from the maintainer that requires a response prior to publication.
+                A Maestro-provided school email is required.
               </span>
             </label>
             <input type="email" id="contact" value={fields.contact} onChange={update('contact')} maxLength={160} placeholder="student@maestrocollege.edu" />
