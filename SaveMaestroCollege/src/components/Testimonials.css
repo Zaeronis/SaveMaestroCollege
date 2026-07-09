@@ -1,8 +1,8 @@
 #testimonials .count { font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .08em; color: var(--muted); margin: 18px 0 20px; }
 .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px; }
-.card { background: rgba(255, 255, 255, 0.08); border: 1px solid var(--glass-border); padding: 32px; margin: 0; border-radius: var(--border-radius); backdrop-filter: var(--blur); -webkit-backdrop-filter: var(--blur); transition: var(--transition); }
-.card:hover { transform: translateY(-8px) scale(1.01); border-color: var(--accent); box-shadow: 0 10px 40px -10px var(--neon-glow); }
-.card.sample { border-style: dashed; opacity: 0.5; }
+.card { background: rgba(255, 255, 255, 0.15); border: 1px solid var(--glass-border); padding: 32px; margin: 0; border-radius: var(--border-radius); backdrop-filter: var(--blur); -webkit-backdrop-filter: var(--blur); transition: var(--transition); }
+.card:hover { transform: translateY(-8px) scale(1.01); border-color: var(--accent); box-shadow: 0 10px 40px -10px var(--neon-glow); background: rgba(255, 255, 255, 0.2); }
+.card.sample { border-style: dashed; opacity: 0.8; }
 .card .head { display: flex; flex-direction: column; gap: 12px; font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 20px; margin-bottom: 20px; }
 .card .head-meta { display: flex; align-items: center; justify-content: space-between; width: 100%; }
 .card .head .no { color: var(--muted); opacity: 0.6; letter-spacing: 0.1em; }
@@ -10,7 +10,7 @@
 .card .head .verified { display: flex; align-items: center; gap: 6px; color: var(--accent); font-weight: 700; opacity: 1; text-shadow: 0 0 8px var(--neon-glow); }
 .card .head .verified svg { width: 14px; height: 14px; }
 .card blockquote { margin: 0; }
-.card blockquote p { margin: 0 0 16px; font-size: 16px; color: var(--ink-soft); line-height: 1.6; }
+.card blockquote p { margin: 0 0 16px; font-size: 16px; color: var(--ink); line-height: 1.6; }
 .card blockquote p:last-child { margin-bottom: 0; }
 .card figcaption { font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--ink); margin-top: 24px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
 .card figcaption .program { display: block; color: var(--muted); font-weight: 400; margin-top: 4px; text-transform: none; letter-spacing: 0; }
