@@ -13,7 +13,7 @@ export default function TheCase() {
             <span className="idx">{String(i + 1).padStart(2, '0')}</span>
             <div>
               <h3>{pt.h}</h3>
-              <p className="fine" dangerouslySetInnerHTML={{ __html: pt.p }} />
+              <p className="fine">{pt.p}</p>
             </div>
           </div>
         ))}

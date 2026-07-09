@@ -10,8 +10,10 @@ export default function Testimonials() {
       <p className="eyebrow"><span className="num">02</span> Student Testimonies</p>
       <h2>True validation is found in personal experience.</h2>
       <p className="lead">
-        This record is built and maintained by students to validate Maestro&rsquo;s mission through technical testimonies.
-        The accounts below serve as a transparent, empirical audit of the curriculum&rsquo;s success from the student perspective.
+          This is built and maintained by students to validate Maestro’s
+          mission through technical testimonies. The accounts below serve as a
+          transparent record of the curriculum’s success from the student
+          perspective.
       </p>
       <p className="count">
         {count === 0

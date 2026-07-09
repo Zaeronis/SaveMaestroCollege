@@ -82,9 +82,9 @@ export default function SubmitForm() {
         <p className="eyebrow"><span className="num">05</span> Submit Your Testimony</p>
         <h2>Document your technical journey at Maestro.</h2>
         <p className="lead">
-          This portal is exclusively for Maestro College students to document their
-          technical milestones. Your testimony provides the empirical evidence
-          needed for our collective advocacy.
+          For Maestro College students to document a concrete skill or project — what you
+          built, and how the program got you there. Plain, specific, honest accounts make
+          the strongest case. No need to dress it up.
         </p>
 
         <form className="rec-form" autoComplete="off" onSubmit={(e) => e.preventDefault()}>
@@ -111,8 +111,8 @@ export default function SubmitForm() {
           </div>
 
           <div className="field">
-            <label htmlFor="outcome">Technical Implementation & Evidence <span className="req">*</span>
-              <span className="hint">Detail your journey at Maestro College. Use industry-standard terminology to describe your growth within the AI-native environment.</span>
+            <label htmlFor="outcome">What you built, and how <span className="req">*</span>
+              <span className="hint">Be concrete and honest: what could you not do before, what did you learn, and what can you build now? Real specifics beat impressive-sounding language.</span>
             </label>
             <textarea id="outcome" value={fields.outcome} onChange={update('outcome')} maxLength={3000}
                       required aria-required="true" aria-invalid={invalid.outcome || undefined}

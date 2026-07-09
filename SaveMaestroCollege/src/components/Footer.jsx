@@ -7,10 +7,8 @@ export default function Footer() {
       <div className="wrap">
         <h3>About this effort</h3>
         <p>
-          This is a 100% independent, student-created and led advocacy platform. It is not affiliated with, 
-          authorized by, or endorsed by Maestro College, its accreditors, or any regulatory body. 
-          This initiative serves as a peer-reviewed, student-led audit of the instructional efficacy 
-          pioneered by this cohort.
+          This is a 100% independent, student-created and led advocacy platform. It is not affiliated with,
+          authorized by, or endorsed by Maestro College, its accreditors, or any regulatory body.
         </p>
         <div className="disc">
           <p className="fine">
