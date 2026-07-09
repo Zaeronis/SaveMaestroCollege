@@ -1,0 +1,67 @@
+.cursor-wrapper {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-2px, -2px); /* Offset to center pointer */
+  transition: transform 0.1s ease-out;
+  will-change: left, top;
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.5));
+}
+
+.cursor-glass {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 230, 118, 0.15); /* Tint with Maestro Green */
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  clip-path: polygon(0 0, 100% 70%, 50% 70%, 50% 100%, 0 0);
+  transition: var(--transition);
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Foggy edge */
+}
+
+.cursor-glass::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--accent); /* Solid green outline */
+  clip-path: polygon(
+    0 0, 
+    100% 70%, 
+    50% 70%, 
+    50% 100%, 
+    0 0,
+    /* Inner cutout */
+    1.5px 3.5px,
+    45% 86%,
+    45% 65%,
+    91% 65%,
+    1.5px 3.5px
+  );
+}
+
+.cursor-wrapper.active .cursor-glass {
+  transform: scale(0.9);
+  background: rgba(0, 122, 255, 0.3); /* Blue select state */
+}
+
+.cursor-wrapper.active .cursor-glass::after {
+  background: var(--select);
+}
+
+body.cursor-hover .cursor-wrapper .cursor-glass {
+  background: rgba(0, 122, 255, 0.2);
+  transform: scale(1.1);
+}
+
+body.cursor-hover .cursor-wrapper .cursor-glass::after {
+  background: var(--select);
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .cursor-wrapper {
+    display: none;
+  }
+}

@@ -1,0 +1,8 @@
+#case h2 { max-width: 30ch; white-space: pre;}
+.points { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--glass-border); margin-top: 40px; border-radius: var(--border-radius); overflow: hidden; backdrop-filter: var(--blur); -webkit-backdrop-filter: var(--blur); }
+.point { background: var(--glass); padding: 40px; display: flex; gap: 24px; transition: var(--transition); }
+.point:hover { background: rgba(255, 255, 255, 0.08); border-color: var(--accent-soft); }
+.point:hover .idx { color: var(--accent); text-shadow: 0 0 8px var(--neon-glow); }
+.point .idx { font-family: "IBM Plex Mono", monospace; font-size: 13px; color: var(--muted); font-weight: 700; padding-top: 6px; letter-spacing: 0.1em; }
+.point h3 { margin: 0 0 16px; font-size: 22px; color: var(--ink); font-weight: 700; }
+.point .fine { margin: 0; font-size: 16px; color: var(--ink-soft); line-height: 1.6; }

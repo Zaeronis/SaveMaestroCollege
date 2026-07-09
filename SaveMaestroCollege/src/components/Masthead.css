@@ -1,0 +1,10 @@
+.mast { border-bottom: 1px solid var(--line); padding: 120px 0 80px; position: relative; overflow: hidden; }
+.mast::before { content: ""; position: absolute; top: -50%; right: -20%; width: 60%; height: 150%; background: radial-gradient(circle, var(--accent-soft) 0%, transparent 70%); pointer-events: none; }
+.mast-inner { padding: 0 24px; max-width: var(--maxw); margin: 0 auto; position: relative; z-index: 1; }
+.mast .kicker { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--accent); margin: 0 0 24px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; font-weight: 600; text-shadow: 0 0 10px var(--neon-glow); }
+.mast .dot { width: 4px; height: 4px; background: var(--line); border-radius: 50%; display: inline-block; }
+.mast h1 { font-weight: 800; font-size: clamp(40px, 8vw, 84px); line-height: 1; letter-spacing: -.05em; margin: 0; color: var(--ink); }
+.mast .sub { margin: 32px 0 48px; max-width: 58ch; font-size: 20px; color: var(--ink-soft); line-height: 1.5; font-weight: 400; }
+.mast nav.bar { border: 1px solid var(--glass-border); border-radius: 99px; padding: 4px 8px; display: inline-flex; gap: 4px; flex-wrap: wrap; background: var(--glass); backdrop-filter: var(--blur); -webkit-backdrop-filter: var(--blur); }
+.mast nav.bar a { font-family: "Archivo", sans-serif; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; font-weight: 700; color: var(--muted); text-decoration: none; padding: 10px 20px; border-radius: 99px; transition: var(--transition); }
+.mast nav.bar a:hover { color: var(--accent); background: var(--glass); text-shadow: 0 0 8px var(--neon-glow); }

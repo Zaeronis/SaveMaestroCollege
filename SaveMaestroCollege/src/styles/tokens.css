@@ -1,0 +1,21 @@
+:root {
+  --ink: #ffffff;         /* Pure white */
+  --ink-soft: #a3a3a3;    /* Neutral 400 */
+  --paper: #000000;       /* Pure black */
+  --paper-2: #171717;     /* Neutral 900 */
+  --accent: #00e676;      /* Maestro Green / Neon */
+  --accent-soft: rgba(0, 230, 118, 0.1);
+  --neon-glow: rgba(0, 230, 118, 0.2);
+  --line: rgba(255, 255, 255, 0.1);
+  --muted: #737373;       /* Neutral 500 */
+  --flag: var(--accent);
+  --ok: var(--accent);
+  --select: #007aff;      /* Standard technical blue */
+  --maxw: 1100px;
+  --glass: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --blur: blur(12px);
+  --shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+  --border-radius: 16px;
+  --transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}

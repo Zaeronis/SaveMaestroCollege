@@ -1,0 +1,8 @@
+.acts { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin-top: 32px; }
+.act { background: var(--glass); border: 1px solid var(--glass-border); padding: 32px; border-radius: var(--border-radius); backdrop-filter: var(--blur); -webkit-backdrop-filter: var(--blur); transition: var(--transition); position: relative; overflow: hidden; }
+.act::before { content: ""; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: var(--glass-border); transition: var(--transition); }
+.act:hover { transform: translateY(-4px); border-color: var(--accent); box-shadow: 0 4px 20px -5px var(--neon-glow); }
+.act:hover::before { background: var(--accent); box-shadow: 0 0 15px var(--accent); }
+.act .tag { font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); font-weight: 700; text-shadow: 0 0 8px var(--neon-glow); }
+.act h3 { margin: 16px 0 12px; font-size: 20px; color: var(--ink); font-weight: 700; }
+.act .fine { margin: 0; font-size: 15px; color: var(--ink-soft); line-height: 1.6; }
