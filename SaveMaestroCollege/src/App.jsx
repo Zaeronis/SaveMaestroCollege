@@ -7,7 +7,7 @@ import SubmitForm from './components/SubmitForm.jsx';
 import Testimonials from './components/Testimonials.jsx';
 import Footer from './components/Footer.jsx';
 import Cursor from './components/Cursor.jsx';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
   useEffect(() => {
