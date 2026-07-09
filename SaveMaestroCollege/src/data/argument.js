@@ -8,7 +8,7 @@ export const claimSub =
 
 export const points = [
   {
-    h: 'Independent Technical Audit',
+    h: 'Real Student Experiences',
     p: 'This platform is a student-created and independent initiative. We are collecting testimonies to illustrate the reality of our education through a lens of technical proficiency and workforce readiness, free from administrative direction.',
   },
   {
