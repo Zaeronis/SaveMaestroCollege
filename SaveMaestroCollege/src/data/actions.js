@@ -15,7 +15,7 @@ export const actions = [
     tag: 'Phase 03',
     tone: 'accent',
     h: 'Empirical Verification',
-    p: 'All entries are verified against institutional records to ensure this database remains an unimpeachable source of evidence for regulatory review.',
+    p: 'All entries require verification via a Maestro school email. You must respond to a confirmation request from the maintainer before your testimony is added to the record.',
   },
   {
     tag: 'Status',
