@@ -44,9 +44,19 @@
     "name": "Jay young",
     "program": "AI Software Engineering - September cohort",
     "skill": "Agentic Systems",
-    "filed": "2026-07-09",
+    "filed": "2026-07-10",
     "verified": false,
     "sample": false,
-    "outcome": "I am an electrician by trade and decided I wanted to take it a step further .So I signed up for Maestros very first cohort. Right away , I began learning vital applicable skills that I could practice and apply immediately.Since then I have participated in several hackathons and have developed several open source agentic projects on solana blockchain. The pace and one-on-one experience offered at maestro enables me to learn at my own pace,?and the curriculum is taught to me in the way I learn the best. I have since received a job offer from X-AI and am starting a brand new career. Thanks Maestro!\n\nFull Submitted Proficiency: Ability to design and build complex agentic architecture using a variety of programming languages and frameworks. "
+    "outcome": "I am an electrician by trade and decided I wanted to take it a step further .So I signed up for Maestros very first cohort. Right away , I began learning vital applicable skills that I could practice and apply immediately.Since then I have participated in several hackathons and have developed several open source agentic projects on solana blockchain. The pace and one-on-one experience offered at maestro enables me to learn at my own pace,and the curriculum is taught to me in the way I learn the best. I have since received a job offer from X-AI and am starting a brand new career. Thanks Maestro!\n\nFull Submitted Proficiency: Ability to design and build complex agentic architecture using a variety of programming languages and frameworks. "
+  },
+  {
+    "no": "006",
+    "name": "Gage Hanback",
+    "program": "AI Engineering",
+    "skill": "Python; SaaS",
+    "filed": "2026-07-10",
+    "verified": false,
+    "sample": false,
+    "outcome": "Aethel Cortex Vektor: Project Overview Aethel Cortex Vektor is a data engineering and orchestration engine built to automate B2B data and content workflows. Powered by the NexusPipeline framework, the platform replaces manual processes with a hands-off, self-sustaining pipeline. What It Does Automated Scraping & Engineering: Extracts raw, unstructured web data and cleans it into structured formats. Agentic AI Execution:Deploys autonomous AI agents to analyze the processed data and handle high-level tasks. Hands-Off SEO Pipelines: Automatically spins up optimized, context-driven content based on the engineered data inputs. The Stack & How It Was Built Python: The entire backend logic, data processing modules, and agent workflows are written in Python. GitHub Actions: Handles the CI/CD pipeline. Every update automatically triggers automated tests and builds to keep production stable. Package Distribution:Configured to compile the core framework and distribute it as a published Python package right through GitHub for quick deployment. Infrastructure: Hosted under a dedicated domain (aethelcortexvektors.com) with a lean, conversion-focused B2B landing page. The Bottom Line This tool bridges the gap between raw web data and production-ready output. By tying a modular Python backend directly to automated DevOps and AI agents, it eliminates the middleman entirely.\n\nFull Submitted Proficiency: Made and deploying my very own saas tool coding this all on my own in python"
   }
 ]

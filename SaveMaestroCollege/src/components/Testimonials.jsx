@@ -1,9 +1,23 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import testimonials from '../data/testimonials.json';
 import './Testimonials.css';
 
 export default function Testimonials() {
   const [selectedTestimony, setSelectedTestimony] = useState(null);
+
+  useEffect(() => {
+    if (selectedTestimony) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    
+    // Cleanup on unmount
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [selectedTestimony]);
+
   const record = testimonials.filter((e) => !e.sample);
   const count = record.length;
 
