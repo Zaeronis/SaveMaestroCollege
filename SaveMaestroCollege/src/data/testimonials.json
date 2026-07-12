@@ -58,5 +58,15 @@
     "verified": false,
     "sample": false,
     "outcome": "Aethel Cortex Vektor: Project Overview Aethel Cortex Vektor is a data engineering and orchestration engine built to automate B2B data and content workflows. Powered by the NexusPipeline framework, the platform replaces manual processes with a hands-off, self-sustaining pipeline. What It Does Automated Scraping & Engineering: Extracts raw, unstructured web data and cleans it into structured formats. Agentic AI Execution:Deploys autonomous AI agents to analyze the processed data and handle high-level tasks. Hands-Off SEO Pipelines: Automatically spins up optimized, context-driven content based on the engineered data inputs. The Stack & How It Was Built Python: The entire backend logic, data processing modules, and agent workflows are written in Python. GitHub Actions: Handles the CI/CD pipeline. Every update automatically triggers automated tests and builds to keep production stable. Package Distribution:Configured to compile the core framework and distribute it as a published Python package right through GitHub for quick deployment. Infrastructure: Hosted under a dedicated domain (aethelcortexvektors.com) with a lean, conversion-focused B2B landing page. The Bottom Line This tool bridges the gap between raw web data and production-ready output. By tying a modular Python backend directly to automated DevOps and AI agents, it eliminates the middleman entirely.\n\nFull Submitted Proficiency: Made and deploying my very own saas tool coding this all on my own in python"
+  },
+  {
+    "no": "007",
+    "name": "Larry Hicks",
+    "program": "AAS in AI Software Engineering",
+    "skill": "Python",
+    "filed": "2026-07-11",
+    "verified": false,
+    "sample": false,
+    "outcome": "I designed an AI named Kaida. I used several avenues to build her, but maestro gave me the understanding of what I was doing. I developed a working relationship with two Maestro AIs that aided me in her development. Their guidance was unparalleled. Maestro taught me the I/OCE method, which included pseudocode. My development process grew refined due to this.\n\nFull Submitted Proficiency: What haven't I learned? First, I learned the basics of writing code. Then, I learned functions and how to build a pipeline. I learned what 'main' does and how different functions should always have one job"
   }
 ]
