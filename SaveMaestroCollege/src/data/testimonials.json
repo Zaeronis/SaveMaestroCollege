@@ -5,7 +5,7 @@
     "program": "(not given)",
     "skill": "Python",
     "filed": "2026-07-09",
-    "verified": false,
+    "verified": true,
     "sample": false,
     "outcome": "I started as a March cohort and I am very serious about my studies. I am recently divorced and a survivor of domestic abuse and school has helped me immensely cope and make my life better for my children and myself. I have already been working on GitHub utilizing my own personal development through portfolios."
   },
@@ -25,7 +25,7 @@
     "program": "October 2025 Cohort - BS of Science - Business and AI Pathway",
     "skill": "Python, Vite, React, etc",
     "filed": "2026-07-09",
-    "verified": false,
+    "verified": true,
     "sample": false,
     "outcome": "My website development beforehand was poor at best. What I have learned in my first year is amazing. I can now read, understand, and produce REAL code. Whether I'm Python, React, JavaScript, and Typescript. That's amazing to me! Not to mention it's really at my pace. Sometimes I'm a week behind because I'm struggling, other times I'm a week ahead because something clicked and I got it! I love that!"
   },
@@ -35,7 +35,7 @@
     "program": "AAS AI Software Engineering",
     "skill": "Python, JavaScript and Typescript ",
     "filed": "2026-07-10",
-    "verified": false,
+    "verified": true,
     "sample": false,
     "outcome": "Before enrolling in Maestro College I didn't know at all what Python, JavaScript, or Typescript were, just that they were computer words. I'm only in month 6 and now I can code at a decent proficiency, I can debug simple errors, and feel pretty good about the progress I'm making. I can make small, input/output programs in all three platforms."
   },
@@ -68,5 +68,25 @@
     "verified": false,
     "sample": false,
     "outcome": "I designed an AI named Kaida. I used several avenues to build her, but maestro gave me the understanding of what I was doing. I developed a working relationship with two Maestro AIs that aided me in her development. Their guidance was unparalleled. Maestro taught me the I/OCE method, which included pseudocode. My development process grew refined due to this.\n\nFull Submitted Proficiency: What haven't I learned? First, I learned the basics of writing code. Then, I learned functions and how to build a pipeline. I learned what 'main' does and how different functions should always have one job"
+  },
+  {
+    "no": "008",
+    "name": "Erica Holzman",
+    "program": "AAS in Business Administration",
+    "skill": "Business Management",
+    "filed": "2026-07-12",
+    "verified": false,
+    "sample": false,
+    "outcome": "Maestro has given me the ability to branch out and expand my CPR business. I just went to MIT in Boston and taught CPR to high school students visting the campus for two weeks. I wouldn't have had the software to handle that without this class.\n\nFull Submitted Proficiency: I own a CPR company this has helped me strengthe my skills in managing training sessions, maintaining compliance with certification standards"
+  },
+  {
+    "no": "009",
+    "name": "Sierra Makins",
+    "program": "AAS in AI Software Engineering",
+    "skill": "Programming & Project Management",
+    "filed": "2026-07-13",
+    "verified": true,
+    "sample": false,
+    "outcome": "Maestro has taught me how to publicly speak, how to be confident about my own work, how to organize and speak properly, how to do my work in a proper way where other people can read an interpret my work, as well as the ability to build projects that I have been wanting to build for years, but I didn’t know how to code or didn’t know the tools that were needed to do so. It’s even taught me newer subjects like psychology, and things about history. I didn’t know even (about) global warming. I came from Pottstown, Pennsylvania, and I’m sorry but my education system here is not the best, and this has opened up the world of education for me drastically. If this course shuts down, I don’t know what I would do, even transferring I would possibly have to be stuck with an in person school and have to start all over again.\n\nFull Submitted Proficiency: I’ve learned how to do massive projects that I’ve been wanting to do for years, but didn’t know the coding to do so I struggle with autism ADHD in public speaking. This course has helped with it all."
   }
 ]
