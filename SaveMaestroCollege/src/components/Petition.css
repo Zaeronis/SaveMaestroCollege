@@ -1,0 +1,39 @@
+#petition {
+  padding-bottom: 100px;
+}
+
+.petition-action {
+  margin-top: 40px;
+}
+
+.petition-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--accent);
+  color: var(--paper);
+  padding: 16px 32px;
+  border-radius: 99px;
+  font-weight: 800;
+  text-decoration: none;
+  font-family: "Archivo", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  transition: var(--transition);
+  box-shadow: 0 0 20px var(--neon-glow);
+}
+
+.petition-link:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 0 30px var(--accent);
+  filter: brightness(1.1);
+}
+
+.petition-link svg {
+  transition: transform 0.3s ease;
+}
+
+.petition-link:hover svg {
+  transform: translate(2px, -2px);
+}

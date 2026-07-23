@@ -4,7 +4,7 @@ import './Boundaries.css';
 export default function Boundaries() {
   return (
     <section id="boundaries">
-      <p className="eyebrow"><span className="num">04</span> What this is not</p>
+      <p className="eyebrow"><span className="num">05</span> What this is not</p>
       <h2>The lines that keep this credible.</h2>
       <p className="lead">
         This argument only works if it stays honest about its own limits. Overreach is what gets a

@@ -4,7 +4,7 @@ import './Actions.css';
 export default function Actions() {
   return (
     <section id="actions">
-      <p className="eyebrow"><span className="num">03</span> How to help</p>
+      <p className="eyebrow"><span className="num">04</span> How to help</p>
       <h2>Student-led strategic action.</h2>
       <p className="lead">
         Coordinated leverage points for student-driven advocacy, ordered by systemic impact.

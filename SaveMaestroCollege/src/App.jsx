@@ -5,6 +5,7 @@ import Boundaries from './components/Boundaries.jsx';
 import Actions from './components/Actions.jsx';
 import SubmitForm from './components/SubmitForm.jsx';
 import Testimonials from './components/Testimonials.jsx';
+import Petition from './components/Petition.jsx';
 import Footer from './components/Footer.jsx';
 import Cursor from './components/Cursor.jsx';
 import { Analytics } from "@vercel/analytics/react"
@@ -33,6 +34,7 @@ export default function App() {
       <main className="wrap">
         <TheCase />
         <Testimonials />
+        <Petition />
           <Actions />
           <Boundaries />
         <SubmitForm />

@@ -79,7 +79,7 @@ export default function SubmitForm() {
 
   return (
       <section id="submit">
-        <p className="eyebrow"><span className="num">05</span> Submit Your Testimony</p>
+        <p className="eyebrow"><span className="num">06</span> Submit Your Testimony</p>
         <h2>Document your technical journey at Maestro.</h2>
         <p className="lead">
           For Maestro College students to document a concrete skill or project — what you
